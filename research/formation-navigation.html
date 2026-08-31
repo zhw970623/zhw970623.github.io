@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffffff">
+<title>多无人机编队导航 · 张浩文</title>
+<meta name="description" content="结合条件流匹配、DAgger 与 MAPPO 的多无人机导航研究。">
+<link rel="canonical" href="https://zhw970623.github.io/research/formation-navigation.html">
+<link rel="alternate" hreflang="en" href="https://zhw970623.github.io/en/research/formation-navigation.html">
+<meta property="og:type" content="article"><meta property="og:title" content="多无人机编队导航 · 张浩文"><meta property="og:description" content="结合条件流匹配、DAgger 与 MAPPO 的多无人机导航研究。"><meta property="og:url" content="https://zhw970623.github.io/research/formation-navigation.html">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="多无人机编队导航 · 张浩文"><meta name="twitter:description" content="结合条件流匹配、DAgger 与 MAPPO 的多无人机导航研究。">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/academic.css"><link rel="stylesheet" href="../assets/portfolio.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header"><div class="shell header-inner"><a class="wordmark" href="../zh/index.html">张浩文<span> / 个人主页</span></a><nav aria-label="主导航"><a href="../zh/index.html">关于</a><a href="index.html" aria-current="true">科研</a><a href="../patents.html">专利</a><a class="language-switch" href="../en/research/formation-navigation.html" hreflang="en" lang="en">English</a></nav></div></header>
+<div class="academic-layout"><aside class="author-sidebar" aria-label="个人信息"><a class="author-portrait" href="../honors.html#conference" aria-label="查看学术现场照片"><img src="../assets/photos/haowen-icra-2026.jpg" width="1279" height="1435" alt="张浩文"></a><div class="author-identity"><a class="author-name" href="../zh/index.html">张浩文</a><p class="author-role">武汉大学 · 博士研究生</p></div><p class="author-focus">强化学习<br>多智能体协同<br>高效计算与端侧部署</p><ul class="author-links"><li><a href="mailto:zhanghaowen@whu.edu.cn">联系邮箱 ↗</a></li><li><a href="https://github.com/zhw970623" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li><li><a href="https://www.linkedin.com/in/%E6%B5%A9%E6%96%87-%E5%BC%A0-b7273b306/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li></ul><p class="sidebar-note">预计毕业 · 2027 年 6 月</p></aside>
+<main id="main" class="academic-main article-main">
+<p class="breadcrumb"><a href="index.html" aria-current="true">科研成果</a><span>/</span>多无人机编队导航</p><header class="article-header"><p class="eyebrow">研究项目 · 高层概述</p><h1>生成式轨迹与多无人机编队导航</h1><p class="article-subtitle">张浩文 · 研究与系统实现。连接轨迹学习、策略优化与分布式真机执行。</p><div class="resource-links"><a href="#method">训练流程 ↓</a><a href="#results">实机验证 ↓</a></div></header><section id="abstract" class="article-section"><h2>研究概述</h2><p>多无人机导航既要满足个体目标，又要保持协同与避碰。本项目探索将条件流匹配（CFM）、DAgger 数据反馈和 MAPPO 策略优化结合，构建从生成式轨迹学习到分布式执行的流程。</p><p>在工程实现中，重点关注采样与策略更新的一致性、可行性约束以及实际飞行中的安全回退，已完成 Sunray300 三机闭环验证。</p></section><section id="method" class="article-section"><h2>训练与执行流程</h2><ol class="workflow-strip"><li><strong>01 · 数据采集</strong><span>仿真、专家示范与 DAgger 数据反馈</span></li><li><strong>02 · 生成与优化</strong><span>条件流匹配与策略学习</span></li><li><strong>03 · 验证与执行</strong><span>带可行性检查的分布式飞行</span></li></ol><ul><li><strong>数据反馈：</strong>根据当前策略访问的状态迭代采集数据，缓解示范数据和执行状态分布的差异。</li><li><strong>策略一致性：</strong>对齐 Rollout 采样与策略更新，保持 PPO 类方法所需的 on-policy 假设。</li><li><strong>执行约束：</strong>将学习策略与显式可行性检查、回退行为接入真实导航闭环。</li></ul><div class="tags"><span>Conditional Flow Matching</span><span>DAgger</span><span>Masked-joint MAPPO</span><span>On-policy Rollout</span><span>分布式执行</span></div></section><section id="results" class="article-section"><h2>验证范围</h2><p>当前证据为端到端系统实现和 <strong>3 架 Sunray300 无人机</strong>的分布式实物闭环验证，重点展示轨迹生成、策略优化与协调执行之间的衔接。</p><p>此处不增加未经核对的量化指标或论文发表状态，不公开尚未发表的方法细节。本项目专属公开视频暂未添加，也不借用其他项目的视频充作实验结果。</p></section><p class="article-end"><a href="index.html">← 返回科研成果</a></p>
+</main></div>
+<footer class="shell site-footer"><span>© 2026 张浩文</span><a href="mailto:zhanghaowen@whu.edu.cn">zhanghaowen@whu.edu.cn</a></footer>
+</body>
+</html>
