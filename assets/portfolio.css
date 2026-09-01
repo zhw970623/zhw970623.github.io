@@ -113,6 +113,13 @@
 .compact-row h3 { font-size:17px; line-height:1.5; letter-spacing:0; }
 .compact-row p { font-size:13px; color:var(--body); margin-top:5px; max-width:570px; }
 .compact-row .row-role { color:var(--muted); margin:3px 0 8px; }
+.company-identity { display:flex; align-items:center; gap:14px; margin-bottom:7px; }
+.company-identity-copy { min-width:0; }
+.company-identity-copy h3 { margin:0; }
+.company-identity-copy .row-role { margin:3px 0 0; }
+.huawei-company-logo { display:block; width:58px; height:auto; flex:0 0 auto; object-fit:contain; }
+.huawei-article-header { display:grid; grid-template-columns:minmax(0,1fr) 76px; align-items:center; gap:24px; }
+.huawei-article-header .huawei-company-logo { width:76px; justify-self:end; }
 .compact-row .huawei-award-badge { margin:14px 0 5px; }
 .huawei-award-badge a { display:inline-block; padding:7px 12px; border:1px solid #d9c28e; border-left:3px solid #a57b28; border-radius:4px; background:#fbf7ed; color:#705016; font-size:13px; line-height:1.6; }
 .huawei-award-badge strong { font-weight:650; }
@@ -170,5 +177,5 @@
 .certification-grid .honor-figure { margin:18px 0 0; }
 .certificate-portrait { max-width:540px; }
 @media(max-width:900px) { .compact-row { flex-direction:column-reverse; gap:8px; } .education-list li { grid-template-columns:42px minmax(0,1fr); gap:8px 12px; } .school-logo { width:40px; height:40px; } .education-list time { grid-column:2; padding-top:0; } }
-@media(max-width:700px) { .header-inner { flex-wrap:wrap; padding-block:10px; gap:4px 16px; } .header-inner nav { gap:16px; } .language-switch { padding-left:14px; } .profile-intro h1 { font-size:29px; } .profile-intro > p:not(.eyebrow) { font-size:14px; } .profile-section-title { align-items:flex-start; } .profile-section-title .inline-link { font-size:10px; margin:0; } .achievement-list li { grid-template-columns:52px 1fr; gap:12px; } .research-directory li { grid-template-columns:1fr; gap:16px; } .research-directory img { max-width:360px; } .compiler-flow { grid-template-columns:1fr 1fr; } .compiler-figure { padding:14px; } .patent-entry dl { grid-template-columns:90px 1fr; gap:7px 12px; } .certification-grid { grid-template-columns:1fr; } .site-footer { flex-wrap:wrap; gap:8px; } }
+@media(max-width:700px) { .header-inner { flex-wrap:wrap; padding-block:10px; gap:4px 16px; } .header-inner nav { gap:16px; } .language-switch { padding-left:14px; } .profile-intro h1 { font-size:29px; } .profile-intro > p:not(.eyebrow) { font-size:14px; } .profile-section-title { align-items:flex-start; } .profile-section-title .inline-link { font-size:10px; margin:0; } .achievement-list li { grid-template-columns:52px 1fr; gap:12px; } .research-directory li { grid-template-columns:1fr; gap:16px; } .research-directory img { max-width:360px; } .compiler-flow { grid-template-columns:1fr 1fr; } .compiler-figure { padding:14px; } .patent-entry dl { grid-template-columns:90px 1fr; gap:7px 12px; } .certification-grid { grid-template-columns:1fr; } .site-footer { flex-wrap:wrap; gap:8px; } .huawei-company-logo { width:52px; } .huawei-article-header { grid-template-columns:minmax(0,1fr) 58px; gap:16px; } .huawei-article-header .huawei-company-logo { width:58px; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .button { transition:none; } }

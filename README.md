@@ -15,6 +15,7 @@ A static academic portfolio for zhw970623, with English as the default. The home
 - en/research/, en/experience/, en/patents.html: corresponding English pages
 - assets/documents/: separate three-page Chinese and English CVs with clickable homepage links and QR codes, plus six redacted patent display copies
 - assets/compiler/: unmodified LLVM image and its license
+- assets/brands/: official employer-identification marks with provenance notes
 - assets/media/: optimized silent MP4 clips and JPEG posters
 - assets/photos/: the author's supplied portrait, life and certificate photographs, plus official Wuhan University and BUPT affiliation marks with source notes
 - assets/papers/: HiDeGS Figure 1 and the author-supplied Dual-Stream UNet / DCSI-UNet architecture image, with source attribution and full-size links
