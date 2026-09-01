@@ -18,6 +18,7 @@ nav { gap:30px; font-size:14px; }
 .author-links { list-style:none; margin:20px 0 0; padding:0; }
 .author-links li { margin-bottom:9px; }
 .author-links a { color:var(--teal); font-size:13px; }
+.author-links .author-contact { color:var(--body); font-size:11px; line-height:1.55; overflow-wrap:anywhere; }
 .sidebar-note { font-size:11px; color:var(--muted); margin-top:24px; }
 .academic-main { min-width:0; display:flex; flex-direction:column; }
 .academic-main > .hero { order:0; }
@@ -83,6 +84,7 @@ h3 { font-size:21px; font-weight:600; }
 .contact-inner h2 { font-size:22px; }
 .contact-inner a { color:var(--teal); text-decoration:underline; }
 .site-footer { margin-top:20px; font-size:10px; }
+.footer-contact { display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:4px 16px; overflow-wrap:anywhere; }
 /* Independent project articles. */
 .article-main { display:block; padding-bottom:35px; }
 .breadcrumb { font-size:11px; color:var(--muted); margin-bottom:21px; }
@@ -139,9 +141,11 @@ td:nth-child(2) { white-space:nowrap; font-variant-numeric:tabular-nums; color:#
   .author-name-zh { display:inline; font-size:12px; margin-left:8px; letter-spacing:1px; }
   .author-role { margin-top:5px; font-size:12px; max-width:none; }
   .author-focus,.sidebar-note { display:none; }
-  .author-links { display:flex; flex-wrap:wrap; gap:16px; margin-top:10px; grid-column:2; }
+  .author-links { display:flex; flex-wrap:wrap; gap:7px 16px; margin-top:10px; grid-column:2; }
   .author-links li { margin:0; }
   .author-links a { font-size:11px; }
+  .author-links .author-contact { flex-basis:100%; }
+  .footer-contact { justify-content:flex-start; }
   .hero { padding:0 0 26px; }
   h1 { font-size:32px; }
   .hero-description { font-size:14px; }
