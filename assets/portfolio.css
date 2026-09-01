@@ -77,13 +77,16 @@
 .achievement-note { margin-top:24px; }
 .achievement-note a { color:var(--teal); }
 @media(max-width:700px) { .achievement-gallery { grid-template-columns:1fr; gap:26px; } .certificate-preview { height:270px; } .achievement-certificate-award .certificate-preview { height:auto; aspect-ratio:1990 / 1410; } .achievement-certificate-award .certificate-preview img { height:auto; } .achievement-certificate figcaption { margin-top:12px; } }
-.life-gallery { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr); gap:16px; align-items:stretch; }
-.life-gallery figure { min-width:0; margin:0; }
-.life-photo-link { display:block; height:250px; overflow:hidden; border:1px solid var(--line); border-radius:4px; background:#fafbf9; }
-.life-photo-link img { display:block; width:100%; height:100%; object-fit:cover; }
-.life-gallery figure:first-child img { object-position:center; }
-.life-gallery figure:last-child img { object-position:center 38%; }
-.life-gallery figcaption { margin-top:8px; color:var(--muted); font-size:11px; }
+.life-gallery { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(220px,.75fr); gap:24px 18px; align-items:start; padding:22px; border:1px solid #e2ddd3; background:#f3f1eb; }
+.life-frame { min-width:0; margin:0; padding:10px 10px 0; border:1px solid #c8c0b3; border-radius:2px; background:#fff; box-shadow:0 1px 0 rgba(37,32,24,.08),0 10px 22px rgba(37,32,24,.08); }
+.life-photo-link { display:flex; align-items:center; justify-content:center; height:286px; padding:13px; overflow:hidden; border:1px solid #ded8ce; background:#f8f6f1; }
+.life-photo-link:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
+.life-photo-link img { display:block; width:auto; max-width:100%; height:auto; max-height:100%; object-fit:contain; box-shadow:0 0 0 1px rgba(29,28,25,.08); }
+.life-frame figcaption { display:grid; grid-template-columns:31px minmax(0,1fr); gap:10px; align-items:start; min-height:66px; padding:11px 3px 10px; border-top:1px solid #eeeae2; color:var(--body); }
+.life-frame-number { padding-top:2px; color:#8b8172; font-family:Georgia,"Times New Roman",serif; font-size:12px; font-variant-numeric:tabular-nums; letter-spacing:.08em; }
+.life-frame-copy { display:block; min-width:0; }
+.life-frame-copy strong { display:block; font-size:12px; font-weight:600; line-height:1.55; }
+.life-frame-context { display:block; margin-top:3px; color:var(--muted); font-size:10px; line-height:1.5; letter-spacing:.08em; text-transform:uppercase; }
 .compact-certificate-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 18px; }
 .compact-certificate-grid > .achievement-certificate { display:grid; grid-template-columns:94px minmax(0,1fr); gap:12px; align-items:center; padding:10px 0; border-bottom:1px solid var(--line); }
 .compact-certificate-grid .certificate-preview { height:82px; padding:5px; }
@@ -95,9 +98,13 @@
 .compact-certificate-grid .inline-link { margin-top:3px; font-size:10px; }
 #achievements .honor-highlight { padding:16px 18px; margin-bottom:14px; }
 #achievements .honor-highlight h3 { font-size:18px; }
+@media(max-width:900px) { .life-gallery { grid-template-columns:1fr; } }
 @media(max-width:700px) {
-  .life-gallery { grid-template-columns:1fr; }
-  .life-photo-link { height:240px; }
+  .life-gallery { gap:18px; padding:14px; }
+  .life-frame { padding:8px 8px 0; }
+  .life-frame--landscape .life-photo-link { height:auto; aspect-ratio:16/10; }
+  .life-frame--portrait .life-photo-link { height:340px; }
+  .life-frame figcaption { min-height:62px; }
   .compact-certificate-grid { grid-template-columns:1fr; gap:4px; }
   .compact-certificate-grid > .achievement-certificate { grid-template-columns:84px minmax(0,1fr); }
   .compact-certificate-grid .certificate-preview { height:76px; }
