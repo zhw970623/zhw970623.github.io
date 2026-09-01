@@ -11,12 +11,12 @@ A static academic portfolio for zhw970623, with English as the default. The home
 - research/staf-navi.html, geodan.html, formation-navigation.html: project articles
 - experience/huawei.html: compiler work and attributed public LLVM illustration
 - patents.html: patent evidence and redacted display documents
-- honors.html: Huawei Optical Product Line President’s Award, National Scholarship and BUPT Outstanding Graduate certificates, plus the ICRA 2026 conference photograph
+- honors.html: Huawei Optical Product Line President’s Award, academic and competition honors, professional certifications, and the ICRA 2026 conference photograph
 - en/research/, en/experience/, en/patents.html: corresponding English pages
 - assets/documents/: separate three-page Chinese and English CVs with clickable homepage links and QR codes, plus four redacted patent display copies
 - assets/compiler/: unmodified LLVM image and its license
 - assets/media/: optimized silent MP4 clips and JPEG posters
-- assets/photos/: the author's supplied portrait, scholarship certificate and 2022 BUPT Outstanding Graduate certificate photographs
+- assets/photos/: the author's supplied portrait and certificate photographs, plus official Wuhan University and BUPT affiliation marks with source notes
 - assets/papers/: HiDeGS Figure 1 and the author-supplied Dual-Stream UNet / DCSI-UNet architecture image, with source attribution and full-size links
 - assets/style.css, academic.css, portfolio.css: shared responsive styles
 - assets/media.js: progressive, localized media controls
@@ -24,6 +24,8 @@ A static academic portfolio for zhw970623, with English as the default. The home
 No build step, account credentials, remote fonts, tracking or third-party JavaScript is required. The GitHub Pages address is https://zhw970623.github.io/. GitHub Pages serves the root of the main branch; the .nojekyll file preserves the static HTML, media and PDF files without Jekyll processing.
 
 All profile sidebars include the author's supplied LinkedIn profile. The Huawei Optical Product Line President’s Award is highlighted under home-page experience, in the bottom honors section, and on the Huawei and honors pages. No unprovided award certificate or unverified award date is added.
+
+The public education section intentionally lists Wuhan University and Beijing University of Posts and Telecommunications only. Their official, watermark-free emblems identify affiliation and do not imply institutional endorsement. The homepage honors gallery contains nine directly viewable items; the bilingual honors pages provide full-size views and separate the two historic Huawei credentials under professional certifications.
 
 ## Updating
 
