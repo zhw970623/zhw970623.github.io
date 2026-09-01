@@ -8,6 +8,9 @@
 - Original author-published image: https://github.com/SongJiang-WHU/HiDeGS/blob/2fca02144b576e41afbf7a1dd5de35554e936d66/assets/pipeline.png
 - Author overview: https://github.com/SongJiang-WHU/HiDeGS#-method-overview
 - Stored as hidegs-architecture.png without changing image contents (1606 × 627).
+- A 1942 × 545, 31-second comparison GIF was supplied directly by Haowen Zhang for this website on 2026-09-01.
+- The public cover uses an optimized silent H.264 derivative (`assets/media/hidegs-demo.mp4`) and a JPEG poster (`assets/media/hidegs-demo.jpg`); the 266 MiB source GIF is not published.
+- The paper and repository links are shown directly beside the publication entry on both homepages and both research directories.
 - The source figure belongs to its respective authors/rights holders; this website does not relicense it.
 
 ## Dual-Stream UNet / DCSI-UNet

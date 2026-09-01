@@ -1,6 +1,6 @@
 # Haowen Zhang — bilingual research portfolio
 
-A static academic portfolio for zhw970623, with English as the default. The homepage presents the introduction and CV downloads, experience, education, selected work, the directly visible real-flight video, two life photographs, granted patents, then honors and certifications. The real-flight video sits immediately after the paper/project list and starts only on request. All four homepage papers have covers: the supplied STAF-Navi and GeoDAN simulation loops, the original HiDeGS architecture figure, and the author-supplied Dual-Stream UNet / DCSI-UNet architecture figure. Research details and additional demonstrations remain on separate pages.
+A static academic portfolio for zhw970623, with English as the default. The homepage presents the introduction and CV downloads, experience, education, selected work, the directly visible real-flight video, three life photographs, granted patents, then honors and certifications. The real-flight video sits immediately after the paper/project list and starts only on request. All four homepage papers have covers: the supplied STAF-Navi, GeoDAN and HiDeGS demonstration loops, plus the author-supplied Dual-Stream UNet / DCSI-UNet architecture figure. Research details and additional demonstrations remain on separate pages.
 
 ## Structure
 
@@ -18,7 +18,7 @@ A static academic portfolio for zhw970623, with English as the default. The home
 - assets/brands/: official employer-identification marks with provenance notes
 - assets/media/: optimized silent MP4 clips and JPEG posters
 - assets/photos/: the author's supplied portrait, life and certificate photographs, plus official Wuhan University and BUPT affiliation marks with source notes
-- assets/papers/: HiDeGS Figure 1 and the author-supplied Dual-Stream UNet / DCSI-UNet architecture image, with source attribution and full-size links
+- assets/papers/: retained HiDeGS Figure 1 reference and the displayed Dual-Stream UNet / DCSI-UNet architecture image, with source attribution
 - assets/style.css, academic.css, portfolio.css: shared responsive styles
 - assets/media.js: progressive, localized media controls
 
