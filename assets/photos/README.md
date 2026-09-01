@@ -1,6 +1,6 @@
 # Photo and certificate provenance
 
-The portrait, conference photograph, honor certificates and professional-certification images in this directory were supplied by Haowen Zhang for this portfolio. The five certificate images added in August 2026 were mechanically rotated to an upright reading orientation only; their visible content was not cropped, redacted, regenerated or semantically edited.
+The portrait, conference photograph, life photographs, honor certificates and professional-certification images in this directory were supplied by Haowen Zhang for this portfolio. The two life photographs added in August 2026 are byte-for-byte copies of the supplied files; their visible content was not cropped, regenerated or semantically edited. The five certificate images added in August 2026 were mechanically rotated to an upright reading orientation only; their visible content was not cropped, redacted, regenerated or semantically edited.
 
 The two school emblems are clean official assets used only to identify education affiliations:
 

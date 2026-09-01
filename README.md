@@ -1,6 +1,6 @@
 # Haowen Zhang — bilingual research portfolio
 
-A static academic portfolio for zhw970623, with English as the default. The homepage presents the introduction and CV downloads, experience, education, selected work, the directly visible real-flight video, then honors. The real-flight video sits immediately after the paper/project list and before honors, and starts only on request. All four homepage papers have covers: the supplied STAF-Navi and GeoDAN simulation loops, the original HiDeGS architecture figure, and the author-supplied Dual-Stream UNet / DCSI-UNet architecture figure. Research details and additional demonstrations remain on separate pages.
+A static academic portfolio for zhw970623, with English as the default. The homepage presents the introduction and CV downloads, experience, education, selected work, the directly visible real-flight video, two life photographs, granted patents, then honors and certifications. The real-flight video sits immediately after the paper/project list and starts only on request. All four homepage papers have covers: the supplied STAF-Navi and GeoDAN simulation loops, the original HiDeGS architecture figure, and the author-supplied Dual-Stream UNet / DCSI-UNet architecture figure. Research details and additional demonstrations remain on separate pages.
 
 ## Structure
 
@@ -10,13 +10,13 @@ A static academic portfolio for zhw970623, with English as the default. The home
 - research/index.html: research directory, papers and demonstrations
 - research/staf-navi.html, geodan.html, formation-navigation.html: project articles
 - experience/huawei.html: compiler work and attributed public LLVM illustration
-- patents.html: patent evidence and redacted display documents
+- patents.html: four grant certificates, one publication notice and one substantive-examination notice, each with a redacted display document
 - honors.html: Huawei Optical Product Line President’s Award, academic and competition honors, professional certifications, and the ICRA 2026 conference photograph
 - en/research/, en/experience/, en/patents.html: corresponding English pages
-- assets/documents/: separate three-page Chinese and English CVs with clickable homepage links and QR codes, plus four redacted patent display copies
+- assets/documents/: separate three-page Chinese and English CVs with clickable homepage links and QR codes, plus six redacted patent display copies
 - assets/compiler/: unmodified LLVM image and its license
 - assets/media/: optimized silent MP4 clips and JPEG posters
-- assets/photos/: the author's supplied portrait and certificate photographs, plus official Wuhan University and BUPT affiliation marks with source notes
+- assets/photos/: the author's supplied portrait, life and certificate photographs, plus official Wuhan University and BUPT affiliation marks with source notes
 - assets/papers/: HiDeGS Figure 1 and the author-supplied Dual-Stream UNet / DCSI-UNet architecture image, with source attribution and full-size links
 - assets/style.css, academic.css, portfolio.css: shared responsive styles
 - assets/media.js: progressive, localized media controls
@@ -25,7 +25,7 @@ No build step, account credentials, remote fonts, tracking or third-party JavaSc
 
 All profile sidebars include the author's supplied LinkedIn profile. The Huawei Optical Product Line President’s Award is highlighted under home-page experience, in the bottom honors section, and on the Huawei and honors pages. No unprovided award certificate or unverified award date is added.
 
-The public education section intentionally lists Wuhan University and Beijing University of Posts and Telecommunications only. Their official, watermark-free emblems identify affiliation and do not imply institutional endorsement. The homepage honors gallery contains nine directly viewable items; the bilingual honors pages provide full-size views and separate the two historic Huawei credentials under professional certifications.
+The public education section intentionally lists Wuhan University and Beijing University of Posts and Telecommunications only. Their official, watermark-free emblems identify affiliation and do not imply institutional endorsement. The homepage separates four granted patents from seven directly viewable honor and certification items; the bilingual detail pages provide full-size evidence views and keep the two historic Huawei credentials under professional certifications.
 
 ## Updating
 
