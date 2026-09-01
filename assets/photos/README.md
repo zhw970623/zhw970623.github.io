@@ -1,6 +1,6 @@
 # Photo and certificate provenance
 
-The portrait, conference photograph, life photographs, honor certificates and professional-certification images in this directory were supplied by Haowen Zhang for this portfolio. The four life photographs and the reviewing certificate displayed on the site are byte-for-byte copies of the supplied files; their visible content was not cropped, regenerated or semantically edited. Five other certificate images added in August 2026 were mechanically rotated to an upright reading orientation only; their visible content was not cropped, redacted, regenerated or semantically edited.
+The portrait, conference photograph, life photographs, honor certificates and professional-certification images in this directory were supplied by Haowen Zhang for this portfolio. The three life photographs and the reviewing certificate displayed on the site are byte-for-byte copies of the supplied files. The sunset cycling photograph uses a CSS-only landscape crop inside its exhibition frame while its full-size link preserves the complete original image; the other visible content was not cropped, regenerated or semantically edited. Five other certificate images added in August 2026 were mechanically rotated to an upright reading orientation only; their visible content was not cropped, redacted, regenerated or semantically edited.
 
 The two school emblems are clean official assets used only to identify education affiliations:
 

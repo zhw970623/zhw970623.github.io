@@ -82,6 +82,9 @@
 .life-photo-link { display:flex; align-items:center; justify-content:center; height:286px; padding:13px; overflow:hidden; border:1px solid #ded8ce; background:#f8f6f1; }
 .life-photo-link:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
 .life-photo-link img { display:block; width:auto; max-width:100%; height:auto; max-height:100%; object-fit:contain; box-shadow:0 0 0 1px rgba(29,28,25,.08); }
+.life-frame--featured { grid-column:1/-1; width:min(100%,720px); justify-self:center; }
+.life-frame--featured .life-photo-link { height:auto; aspect-ratio:4/3; }
+.life-photo-link .life-photo--cover { width:100%; max-width:none; height:100%; max-height:none; object-fit:cover; object-position:center 52%; }
 .life-frame figcaption { display:grid; grid-template-columns:31px minmax(0,1fr); gap:10px; align-items:start; min-height:66px; padding:11px 3px 10px; border-top:1px solid #eeeae2; color:var(--body); }
 .life-frame-number { padding-top:2px; color:#8b8172; font-family:Georgia,"Times New Roman",serif; font-size:12px; font-variant-numeric:tabular-nums; letter-spacing:.08em; }
 .life-frame-copy { display:block; min-width:0; }
@@ -103,6 +106,7 @@
   .life-gallery { gap:18px; padding:14px; }
   .life-frame { padding:8px 8px 0; }
   .life-frame--landscape .life-photo-link { height:auto; aspect-ratio:16/10; }
+  .life-frame--featured .life-photo-link { aspect-ratio:4/3; }
   .life-frame--portrait .life-photo-link { height:340px; }
   .life-frame figcaption { min-height:62px; }
   .compact-certificate-grid { grid-template-columns:1fr; gap:4px; }
@@ -147,6 +151,7 @@
 .education-copy { min-width:0; }
 .education-list strong { display:block; font-weight:600; font-size:15px; }
 .education-list span { display:block; font-size:12px; color:var(--muted); margin-top:2px; }
+.education-list .education-lab { color:var(--body); font-size:11px; font-weight:550; letter-spacing:.01em; margin-top:4px; }
 .achievement-list { padding:0; margin:0; list-style:none; }
 .achievement-list li { display:grid; grid-template-columns:64px minmax(0,1fr); gap:17px; padding:13px 0; border-bottom:1px solid #f0f2f2; }
 .achievement-list li:first-child { padding-top:0; }
